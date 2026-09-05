@@ -1,0 +1,85 @@
+# ===== 环境与密钥 =====
+.env
+.env.local
+.env.*.local
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== 运行时数据 =====
+uploads/
+projects/
+chroma_db/
+
+# ===== Celery =====
+celerybeat-schedule
+celerybeat-schedule.pid
+
+# ===== 日志 =====
+*.log
+
+# ===== Node.js =====
+packages/desktop/node_modules/
+
+# ===== 测试与文档（新增，纳入版本管理） =====
+test_llm_gateway.py
+test_outline_gen.py
+
+# ===== 工具目录 =====
+/.codeartsdoer/
+
+# ===== 发布仓库排除项 =====
+# 本地开发、测试、评测与生成快照，不进入发布仓库
+.dev/
+tests/
+eval/
+docs/
+checkpoints/
+data/
+fullrep.*
+baseline.json
+ch_uat.json
+chapters.json
+current_scope.json
+current_snap.json
+dec.json
+docs.json
+latest_after.json
+latest_run.json
+project.json
+rep.json
+packages/desktop/dist/
+packages/desktop/renderer/src/components/graph/fixtures.ts
+
+# 开发验收/测试演示脚本，不属于运行时发布内容
+scripts/*_demo.py
+scripts/*_e2e.py
+scripts/*_smoke*.py
+scripts/pg_*.py
+services/knowledge_corpus/eval_pb.py
+

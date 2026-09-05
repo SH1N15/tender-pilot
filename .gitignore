@@ -82,4 +82,6 @@ scripts/*_e2e.py
 scripts/*_smoke*.py
 scripts/pg_*.py
 services/knowledge_corpus/eval_pb.py
+services/knowledge_corpus/enterprise_gen.py
+services/knowledge_corpus/enterprise_deep_gen.py
 

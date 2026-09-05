@@ -3,9 +3,9 @@ name: tender_interpret
 description: 15维度招标文件解读
 category: interpret
 version: "1.0.0"
-license: MIT
+license: AGPL-3.0-only
 metadata:
-  author: BidMaster Pro
+  author: 投标智航 / TenderPilot
   triggers:
     - 解读
     - 招标解读

@@ -169,4 +169,5 @@ npm run build
 
 ## 许可证
 
-本项目采用 MIT 许可证，详见 [LICENSE](LICENSE)。
+- **整个项目**（包括平台源码、桌面端、数据库脚本、启动工具、模板和 `skills/` 技能定义）统一按 GNU Affero General Public License 3.0（AGPL-3.0）发布，完整条款见 [LICENSE](LICENSE)。
+- 第三方依赖仍受各自许可证约束，不能因为本项目的许可证而改变其条款。

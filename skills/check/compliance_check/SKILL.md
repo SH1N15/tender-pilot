@@ -3,9 +3,9 @@ name: compliance_check
 description: 合规性检查
 category: check
 version: "1.0.0"
-license: MIT
+license: AGPL-3.0-only
 metadata:
-  author: BidMaster Pro
+  author: 投标智航 / TenderPilot
   triggers:
     - 合规
     - 合规性

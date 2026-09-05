@@ -2,6 +2,7 @@
   "name": "tenderpilot-desktop",
   "version": "0.1.0",
   "description": "投标智航 / TenderPilot - 全流程智能招投标平台",
+  "license": "AGPL-3.0-only",
   "main": "main/index.js",
   "scripts": {
     "dev": "vite",

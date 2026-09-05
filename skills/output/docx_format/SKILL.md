@@ -3,9 +3,9 @@ name: docx_format
 description: 智能排版
 category: output
 version: "1.0.0"
-license: MIT
+license: AGPL-3.0-only
 metadata:
-  author: BidMaster Pro
+  author: 投标智航 / TenderPilot
   triggers:
     - 排版
     - 格式化

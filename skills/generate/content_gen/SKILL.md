@@ -3,9 +3,9 @@ name: content_gen
 description: 正文生成(四模式)
 category: generate
 version: "1.0.0"
-license: MIT
+license: AGPL-3.0-only
 metadata:
-  author: BidMaster Pro
+  author: 投标智航 / TenderPilot
   triggers:
     - 生成
     - 撰写
